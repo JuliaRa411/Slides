@@ -1,0 +1,311 @@
+
+body{
+    background-image: radial-gradient(circle, #efcbfb, #f1d3fb, #f3dcfa, #f4e4fa, #f6ecf9);
+}
+
+
+.nav-link, .navbar-brand {
+    color: black;
+    height: 40px;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Kurale', serif;
+    
+}
+.navbar-dark  {
+    background-color: #9B72AA;
+}
+
+h1{
+    color:  #9B72AA;;
+    font-family: 'Kurale', serif;
+    font-size: 90px;
+   font-weight: bold;
+  
+ 
+}
+.header {
+    margin-top: 50px;
+    display: flex;
+   justify-content: center ;
+   
+}
+
+.headerForm {
+    
+    display: flex;
+   justify-content: center ;
+   
+}
+.headerGsap{
+    display: flex;
+    justify-content: center ;
+    margin-top: 50px;
+}
+
+h4{
+ position: absolute;
+ top:   30px;
+ left: 30px;
+ font-family: 'Kurale', serif;
+ color: lavender;
+ font-size: 0;
+ 
+}
+h3{
+    color: #9B72AA;
+    font-family: 'Kurale', serif;
+    font-size: 60px;
+}
+h1{
+    margin-top: 50px;
+}
+.par{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    background-color: lavender;
+    color: black;
+    font-family: 'Kurale', serif;
+    font-size: 0;
+
+} 
+.size{
+    position: absolute;  
+    background-color: lavender;
+    color: black;
+    font-family: 'Kurale', serif;
+    bottom: 40px;
+    left: 40px;
+    font-size: 0;
+}
+
+
+.container{
+    display: flex;
+    margin-top: 50px;
+}
+
+.item{
+height: 90vh;
+background-size: cover;
+background-position:center;
+position: relative;
+flex: 1;
+margin: 10px;
+}
+
+.selected{
+    flex: 4;
+}
+.selected h4{
+   
+    transition: all 1s ease-in;
+    font-size: 60px;
+}
+
+.selected .par{
+    transition: all 1s ease-in;
+    font-size: 20px;
+}
+.selected .size{
+transition: all 1s ease-in;
+font-size: 20px;
+}
+
+.end,.start{
+    border:none;
+    background-image: radial-gradient(circle, #efcbfb, #f1d3fb, #f3dcfa, #f4e4fa, #f6ecf9);}
+
+.btn{
+    margin-top: -15px;
+    font-family: 'Kurale', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 15%;
+    background-color: #9B72AA
+}
+
+.btn:hover{
+background-color:#C6B4CE;
+transition: all 1s;
+transform: scale(1.4);
+} 
+ 
+.text-input{
+    border: none;
+    padding: 3px 30px;
+    margin-left: 20px;
+    margin: 5px;
+    background-image: radial-gradient(circle, #efcbfb, #f1d3fb, #f3dcfa, #f4e4fa, #f6ecf9);
+   }
+
+  
+label{
+    font-family: 'Kurale', serif;
+    font-size: 25px;
+    margin: 5px;
+  }
+
+
+.one{
+    background-image: url(https://www.aspenridgehomes.com/media/comm/oakridge-meadows/renderings/allan-a.jpg);
+}
+
+.two{
+    background-image: url(https://www.aspenridgehomes.com/media/comm/oakridge-meadows/renderings/goodwin-a.jpg);
+}
+
+.three{
+    background-image: url(https://www.aspenridgehomes.com/media/comm/oakridge-meadows/renderings/kieran-c.jpg);
+}
+
+.four{
+    background-image: url(https://www.aspenridgehomes.com/media/comm/oakridge-meadows/renderings/ross-a.jpg);
+}
+
+.five{
+    background-image: url(https://www.aspenridgehomes.com/media/comm/oakridge-meadows/renderings/farber-c.jpg);
+}
+
+
+
+#container{
+
+    display: flex;
+    justify-content: center;
+}
+
+#picture{
+   width: 40%;
+ 
+    }
+   
+ 
+#end, #go{
+border:none
+}
+
+.social{
+    margin-top: 20px;
+    text-align: center;
+  
+           }
+  
+ 
+       .fas{
+       font-size: 20px;
+       color:  #030303;
+       margin: 7px;
+       padding: 7px;
+       border-radius: 50%;
+       background-color: #9B72AA
+   }
+
+
+   #buttom{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+font-family: 'Kurale', serif;
+    font-size: 20px;
+    
+   }
+ 
+.icon{
+    transform:rotate(190deg);
+}
+   /*  coming soon */ 
+ 
+
+   @media all and (max-width: 800px) {
+       
+    h1{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 30px; 
+    }
+         h4{
+        font-size: 25px;
+    }
+     .price{
+        font-size: 20px;
+    }
+         
+    label{
+       
+    font-size: 20px;
+    }
+
+    
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#picture{
+    width: 250px;
+}
+   
+
+.btn{
+  width: 40%;
+}
+
+
+#buttom{
+ 
+ text-align: center;
+ font-size: 15px;
+ 
+}
+       }
+@media all and (max-width: 500px) {
+       
+    h1{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 30px; 
+    }
+         h4{
+        font-size: 25px;
+    }
+     .price{
+        font-size: 20px;
+    }
+         
+    label{
+       
+    font-size: 20px;
+    }
+
+    
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#picture{
+    width: 250px;
+}
+   
+
+.btn{
+  width: 40%;
+}
+
+
+#buttom{
+ 
+ text-align: center;
+ font-size: 15px;
+ 
+}
+       }
